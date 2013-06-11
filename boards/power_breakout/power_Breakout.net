@@ -1,0 +1,57 @@
+# EESchema Netlist Version 1.1 created  Fri 02 Nov 2012 10:14:02 AM CDT
+(
+ ( /50929191 $noname  P1001 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /50929226 $noname  P1002 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5092923F $noname  P1003 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /50929258 $noname  P1004 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /50929271 $noname  P1005 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P1001
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P1002
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P1003
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P1004
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P1005
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+24V" "+24V"
+ P1002 1
+ P1001 1
+ P1005 1
+ P1003 1
+ P1004 1
+Net 2 "GND" "GND"
+ P1002 2
+ P1003 2
+ P1001 2
+ P1005 2
+ P1004 2
+}
+#End

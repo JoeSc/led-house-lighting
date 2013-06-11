@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 01 Nov 2012 02:10:19 PM CDT
+
+BeginCmp
+TimeStamp = /50929191;
+Reference = P1001;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50929226;
+Reference = P1002;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092923F;
+Reference = P1003;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50929258;
+Reference = P1004;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50929271;
+Reference = P1005;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092C80A;
+Reference = P1006;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092C817;
+Reference = P1007;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092C81D;
+Reference = P1008;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092C823;
+Reference = P1009;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+EndListe

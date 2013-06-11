@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = Sun 24 Mar 2013 04:49:46 PM CDT
+
+BeginCmp
+TimeStamp = /514F1A5E;
+Reference = C101;
+ValeurCmp = CAP_22UF_20P_10V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1A8F;
+Reference = C102;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1AD9;
+Reference = C103;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1AC3;
+Reference = C104;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1ACE;
+Reference = C105;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F7453;
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F172C;
+Reference = P101;
+ValeurCmp = CONN_5X2;
+IdModule  = HDR_2x5_RA_IDC;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F74F3;
+Reference = P102;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F7500;
+Reference = P103;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F7506;
+Reference = P104;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F750C;
+Reference = P105;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1802;
+Reference = R101;
+ValeurCmp = RES_0_0P_1V4_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F17CE;
+Reference = R102;
+ValeurCmp = RES_0_0P_1V4_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F7462;
+Reference = R103;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1C4E;
+Reference = RV101;
+ValeurCmp = POT_10K_SLIDER;
+IdModule  = POT_PTA43;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1C82;
+Reference = RV102;
+ValeurCmp = POT_10K_SLIDER;
+IdModule  = POT_PTA43;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1C8D;
+Reference = RV103;
+ValeurCmp = POT_10K_SLIDER;
+IdModule  = POT_PTA43;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1C98;
+Reference = RV104;
+ValeurCmp = POT_10K_SLIDER;
+IdModule  = POT_PTA43;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F190D;
+Reference = SW101;
+ValeurCmp = SW_PB_MJTP1230;
+IdModule  = TACT_SW_TH_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F192B;
+Reference = SW102;
+ValeurCmp = SW_PB_MJTP1230;
+IdModule  = TACT_SW_TH_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F1934;
+Reference = SW103;
+ValeurCmp = SW_PB_MJTP1230;
+IdModule  = TACT_SW_TH_6x6;
+EndCmp
+
+EndListe

@@ -1,0 +1,105 @@
+# EESchema Netlist Version 1.1 created  Wed 31 Oct 2012 08:56:06 PM CDT
+(
+ ( /5074D9D8 $noname  C101 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5074DA16 $noname  C102 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5074E11A $noname  P10 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 +24V )
+  (    2 /STRIP2_12V )
+ )
+ ( /5074E138 $noname  P11 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 +24V )
+  (    2 /STRIP1_12V )
+ )
+ ( /5074E15D $noname  P13 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 /STRIP2_12V )
+  (    2 /STRIP_GND )
+ )
+ ( /5074E16A $noname  P14 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 /STRIP1_12V )
+  (    2 /STRIP_GND )
+ )
+ ( /5074E177 $noname  P16 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 /STRIP_GND )
+  (    2 GND )
+ )
+ ( /5074E184 $noname  P17 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 /STRIP_GND )
+  (    2 GND )
+ )
+ ( /5091BA69 $noname  P100 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 GND )
+  (    2 +24V )
+ )
+ ( /5091BA8B $noname  P101 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C101
+ SM1206
+$endlist
+$component C102
+ SM1206
+$endlist
+$component P10
+ JST_PH_2
+$endlist
+$component P11
+ JST_PH_2
+$endlist
+$component P13
+ JST_PH_2
+$endlist
+$component P14
+ JST_PH_2
+$endlist
+$component P16
+ JST_PH_2
+$endlist
+$component P17
+ JST_PH_2
+$endlist
+$component P100
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P101
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/STRIP2_12V" "STRIP2_12V"
+ P13 1
+ P10 2
+Net 2 "+24V" "+24V"
+ C102 1
+ P101 1
+ P100 2
+ C101 1
+ P10 1
+ P11 1
+Net 3 "GND" "GND"
+ P16 2
+ P17 2
+ C102 2
+ P100 1
+ P101 2
+ C101 2
+Net 4 "/STRIP_GND" "STRIP_GND"
+ P13 2
+ P17 1
+ P16 1
+ P14 2
+Net 5 "/STRIP1_12V" "STRIP1_12V"
+ P14 1
+ P11 2
+}
+#End

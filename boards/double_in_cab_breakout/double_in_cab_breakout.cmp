@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Wed 31 Oct 2012 06:39:46 PM CDT
+
+BeginCmp
+TimeStamp = /5074D9D8;
+Reference = C101;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074DA16;
+Reference = C102;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074DABB;
+Reference = C103;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074DAEC;
+Reference = C104;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E11A;
+Reference = P10;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E138;
+Reference = P11;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E15D;
+Reference = P13;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E16A;
+Reference = P14;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E177;
+Reference = P16;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5074E184;
+Reference = P17;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5091BA69;
+Reference = P100;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5091BA8B;
+Reference = P101;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+EndListe
