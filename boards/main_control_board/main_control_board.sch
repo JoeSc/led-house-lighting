@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date Wed 28 Aug 2013 08:30:11 PM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:Joe_Chips
 LIBS:Joe_Discrete
 LIBS:main_control_board-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 mar 2013"
+Date "29 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -732,11 +732,11 @@ F 3 "" H 1900 14300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9200 3200 0    60   ~ 0
-AD2
+AD1
 Text Label 8500 3100 0    60   ~ 0
-AD4
+AD3
 Text Label 9100 3000 0    60   ~ 0
-SW3
+SW2
 $Comp
 L +3.3V #PWR049
 U 1 1 507450BB
@@ -3573,7 +3573,7 @@ F 3 "" H 10500 3000 60  0001 C CNN
 F 4 "609-1767-ND" H 10500 3000 60  0001 C CNN "PN"
 F 5 "CONN_5X2" H 10500 3000 60  0001 C CNN "Name"
 	1    10500 3000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	10900 3000 11600 3000
@@ -3582,11 +3582,11 @@ Wire Wire Line
 Wire Wire Line
 	10900 3200 11600 3200
 Text Label 11600 3000 2    60   ~ 0
-SW2
+SW3
 Text Label 11600 3100 2    60   ~ 0
-AD3
+AD4
 Text Label 11600 3200 2    60   ~ 0
-AD1
+AD2
 $Comp
 L GND #PWR0103
 U 1 1 508A2595
