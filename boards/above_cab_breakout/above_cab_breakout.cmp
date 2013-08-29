@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 05 Nov 2012 01:46:32 PM CST
+
+BeginCmp
+TimeStamp = /508366E6;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /508366F3;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5098178E;
+Reference = P1001;
+ValeurCmp = CONN_4;
+IdModule  = CONN_TERM_BLOCK_4POS_3P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /509817B7;
+Reference = P1002;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /509817BD;
+Reference = P1003;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /509817A5;
+Reference = P1004;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /509817AB;
+Reference = P1005;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5098177F;
+Reference = P1006;
+ValeurCmp = CONN_4;
+IdModule  = CONN_TERM_BLOCK_4POS_3P5MM;
+EndCmp
+
+EndListe

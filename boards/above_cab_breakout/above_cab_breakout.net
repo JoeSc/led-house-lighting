@@ -1,0 +1,58 @@
+# EESchema Netlist Version 1.1 created  Mon 05 Nov 2012 01:46:10 PM CST
+(
+ ( /508366E6 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+ ( /508366F3 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000006 )
+ )
+ ( /5098177F $noname  P1006 CONN_4 {Lib=CONN_4}
+  (    1 +24V )
+  (    2 N-000004 )
+  (    3 N-000006 )
+  (    4 N-000002 )
+ )
+ ( /5098178E $noname  P1001 CONN_4 {Lib=CONN_4}
+  (    1 N-000001 )
+  (    2 N-000003 )
+  (    3 N-000005 )
+  (    4 +24V )
+ )
+ ( /509817A5 $noname  P1004 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /509817AB $noname  P1005 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /509817B7 $noname  P1002 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /509817BD $noname  P1003 CONN_1 {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ P1001 1
+ P1003 1
+Net 2 "" ""
+ P1006 4
+ P1005 1
+Net 3 "" ""
+ P1001 2
+ P1 1
+Net 4 "" ""
+ P1006 2
+ P1004 1
+Net 5 "" ""
+ P1001 3
+ P1002 1
+Net 6 "" ""
+ P1006 3
+ P2 1
+Net 7 "+24V" "+24V"
+ P1001 4
+ P1006 1
+}
+#End
