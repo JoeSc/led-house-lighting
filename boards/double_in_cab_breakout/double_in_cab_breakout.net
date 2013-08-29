@@ -1,105 +1,179 @@
-# EESchema Netlist Version 1.1 created  Wed 31 Oct 2012 08:56:06 PM CDT
-(
- ( /5074D9D8 $noname  C101 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
-  (    1 +24V )
-  (    2 GND )
- )
- ( /5074DA16 $noname  C102 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
-  (    1 +24V )
-  (    2 GND )
- )
- ( /5074E11A $noname  P10 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 +24V )
-  (    2 /STRIP2_12V )
- )
- ( /5074E138 $noname  P11 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 +24V )
-  (    2 /STRIP1_12V )
- )
- ( /5074E15D $noname  P13 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /STRIP2_12V )
-  (    2 /STRIP_GND )
- )
- ( /5074E16A $noname  P14 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /STRIP1_12V )
-  (    2 /STRIP_GND )
- )
- ( /5074E177 $noname  P16 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /STRIP_GND )
-  (    2 GND )
- )
- ( /5074E184 $noname  P17 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /STRIP_GND )
-  (    2 GND )
- )
- ( /5091BA69 $noname  P100 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
-  (    1 GND )
-  (    2 +24V )
- )
- ( /5091BA8B $noname  P101 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
-  (    1 +24V )
-  (    2 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C101
- SM1206
-$endlist
-$component C102
- SM1206
-$endlist
-$component P10
- JST_PH_2
-$endlist
-$component P11
- JST_PH_2
-$endlist
-$component P13
- JST_PH_2
-$endlist
-$component P14
- JST_PH_2
-$endlist
-$component P16
- JST_PH_2
-$endlist
-$component P17
- JST_PH_2
-$endlist
-$component P100
- CONN_TERM_BLOCK_2POS_3P5MM
-$endlist
-$component P101
- CONN_TERM_BLOCK_2POS_3P5MM
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "/STRIP2_12V" "STRIP2_12V"
- P13 1
- P10 2
-Net 2 "+24V" "+24V"
- C102 1
- P101 1
- P100 2
- C101 1
- P10 1
- P11 1
-Net 3 "GND" "GND"
- P16 2
- P17 2
- C102 2
- P100 1
- P101 2
- C101 2
-Net 4 "/STRIP_GND" "STRIP_GND"
- P13 2
- P17 1
- P16 1
- P14 2
-Net 5 "/STRIP1_12V" "STRIP1_12V"
- P14 1
- P11 2
-}
-#End
+(export (version D)
+  (design
+    (source /home/jschaack/Documents/led-house-lighting/boards/double_in_cab_breakout/double_in_cab_breakout.sch)
+    (date "Mon 26 Aug 2013 04:29:16 PM CDT")
+    (tool "eeschema (2013-mar-13)-testing"))
+  (components
+    (comp (ref C101)
+      (value CAP_2P2UF_10P_50V_X5R_1206)
+      (fields
+        (field (name PN) 587-2402-1-ND)
+        (field (name Val) 2.2uF)
+        (field (name Package) 1206)
+        (field (name Tol) 10%)
+        (field (name Voltage) 50V))
+      (libsource (lib Joe_Discrete) (part CAP_2P2UF_10P_50V_X5R_1206))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074D9D8))
+    (comp (ref C102)
+      (value CAP_2P2UF_10P_50V_X5R_1206)
+      (fields
+        (field (name PN) 587-2402-1-ND)
+        (field (name Val) 2.2uF)
+        (field (name Package) 1206)
+        (field (name Tol) 10%)
+        (field (name Voltage) 50V))
+      (libsource (lib Joe_Discrete) (part CAP_2P2UF_10P_50V_X5R_1206))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074DA16))
+    (comp (ref P10)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E11A))
+    (comp (ref P11)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E138))
+    (comp (ref P13)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E15D))
+    (comp (ref P14)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E16A))
+    (comp (ref P16)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E177))
+    (comp (ref P17)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5074E184))
+    (comp (ref P100)
+      (value CONN_TERM_BLOCK_2POS_3P5MM)
+      (fields
+        (field (name PN) A98036-ND)
+        (field (name Name) TRM_BLK_2))
+      (libsource (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5091BA69))
+    (comp (ref P101)
+      (value CONN_TERM_BLOCK_2POS_3P5MM)
+      (fields
+        (field (name PN) A98036-ND)
+        (field (name Name) TRM_BLK_2))
+      (libsource (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5091BA8B))
+    (comp (ref R1001)
+      (value RES_0_0P_1V4_1206)
+      (fields
+        (field (name PN) CR1206-J/-000ELFCT-ND)
+        (field (name Val) 0)
+        (field (name Package) 1206)
+        (field (name Tol) 0%)
+        (field (name Power) 1/4))
+      (libsource (lib Joe_Discrete) (part RES_0_0P_1V4_1206))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521BC944)))
+  (libparts
+    (libpart (lib Joe_Discrete) (part cap_2p2uf_10p_50v_x5r_1206)
+      (footprints
+        (fp SM1206))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) cap_2p2uf_10p_50v_x5r_1206)
+        (field (name PN) 587-2402-1-ND)
+        (field (name Val) 2.2uF)
+        (field (name Package) 1206)
+        (field (name Tol) 10%)
+        (field (name Voltage) 50V))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib Joe_Discrete) (part CONN_JST_PH_2)
+      (footprints
+        (fp JST_PH_2))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_JST_PH_2)
+        (field (name PN) 455-1749-1-ND))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM)
+      (footprints
+        (fp CONN_TERM_BLOCK_2POS_3P5MM))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_TERM_BLOCK_2POS_3P5MM)
+        (field (name PN) A98036-ND)
+        (field (name Name) TRM_BLK_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib Joe_Discrete) (part res_0_0p_1v4_1206)
+      (footprints
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) res_0_0p_1v4_1206)
+        (field (name PN) CR1206-J/-000ELFCT-ND)
+        (field (name Val) 0)
+        (field (name Package) 1206)
+        (field (name Tol) 0%)
+        (field (name Power) 1/4))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical Joe_Discrete)
+      (uri /home/jschaack/Documents/Kicad_Library/Joe_Discrete.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref P101) (pin 2))
+      (node (ref P100) (pin 1))
+      (node (ref C101) (pin 2))
+      (node (ref C102) (pin 2))
+      (node (ref P17) (pin 2))
+      (node (ref P16) (pin 2)))
+    (net (code 2) (name /STRIP2_12V)
+      (node (ref P10) (pin 2))
+      (node (ref P13) (pin 1)))
+    (net (code 3) (name +24V)
+      (node (ref C101) (pin 1))
+      (node (ref C102) (pin 1))
+      (node (ref P10) (pin 1))
+      (node (ref P11) (pin 1))
+      (node (ref P100) (pin 2))
+      (node (ref P101) (pin 1)))
+    (net (code 4) (name /STRIP1_12V)
+      (node (ref P11) (pin 2))
+      (node (ref P14) (pin 1)))
+    (net (code 5) (name "")
+      (node (ref R1001) (pin 2))
+      (node (ref P17) (pin 1))
+      (node (ref P13) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref R1001) (pin 1))
+      (node (ref P16) (pin 1))
+      (node (ref P14) (pin 2)))))

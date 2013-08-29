@@ -1,0 +1,2792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export version="D">
+    <design>
+        <source>/home/jschaack/Documents/led-house-lighting/boards/main_control_board/main_control_board.sch</source>
+        <date>Tue 11 Jun 2013 04:00:13 PM CDT</date>
+        <tool>eeschema (2013-mar-13)-testing</tool>
+    </design>
+    <components>
+        <comp ref="Q102">
+            <value>MOSFET_P</value>
+            <fields>
+                <field name="PN">DMP2215LDICT-ND</field>
+                <field name="Name">MOSFET_P_2.7A</field>
+            </fields>
+            <libsource lib="device" part="MOSFET_P"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50665184</tstamp>
+        </comp>
+        <comp ref="HW100">
+            <value>CONN_1</value>
+            <libsource lib="conn" part="CONN_1"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50703E3A</tstamp>
+        </comp>
+        <comp ref="HW101">
+            <value>CONN_1</value>
+            <libsource lib="conn" part="CONN_1"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50703E49</tstamp>
+        </comp>
+        <comp ref="HW102">
+            <value>CONN_1</value>
+            <libsource lib="conn" part="CONN_1"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50703E58</tstamp>
+        </comp>
+        <comp ref="HW103">
+            <value>CONN_1</value>
+            <libsource lib="conn" part="CONN_1"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50703E67</tstamp>
+        </comp>
+        <comp ref="C126">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C474</tstamp>
+        </comp>
+        <comp ref="C127">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C4C6</tstamp>
+        </comp>
+        <comp ref="C102">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C51B</tstamp>
+        </comp>
+        <comp ref="C104">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C52D</tstamp>
+        </comp>
+        <comp ref="C107">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C561</tstamp>
+        </comp>
+        <comp ref="R106">
+            <value>RES_4P7K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K70CT-ND</field>
+                <field name="Val">4.7K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P7K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C795</tstamp>
+        </comp>
+        <comp ref="C1">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C7E7</tstamp>
+        </comp>
+        <comp ref="C101">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075CE30</tstamp>
+        </comp>
+        <comp ref="C124">
+            <value>CAP_39PF_5P_50V_NP0_0805</value>
+            <fields>
+                <field name="PN">399-1116-1-ND</field>
+                <field name="Val">39pF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">5%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_39PF_5P_50V_NP0_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C86E</tstamp>
+        </comp>
+        <comp ref="C125">
+            <value>CAP_39PF_5P_50V_NP0_0805</value>
+            <fields>
+                <field name="PN">399-1116-1-ND</field>
+                <field name="Val">39pF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">5%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_39PF_5P_50V_NP0_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075C8AC</tstamp>
+        </comp>
+        <comp ref="X101">
+            <value>CRYSTAL_12MHZ_18PF_CS3P2X5</value>
+            <fields>
+                <field name="PN">CTX1162CT-ND</field>
+                <field name="Freq">12MHz</field>
+                <field name="Package">3P2x5</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CRYSTAL_12MHZ_18PF_CS3P2X5"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075CEA6</tstamp>
+        </comp>
+        <comp ref="R110">
+            <value>RES_4P7K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K70CT-ND</field>
+                <field name="Val">4.7K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P7K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075CEE3</tstamp>
+        </comp>
+        <comp ref="C123">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075CF14</tstamp>
+        </comp>
+        <comp ref="R102">
+            <value>RES_4P7K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K70CT-ND</field>
+                <field name="Val">4.7K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P7K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075CF48</tstamp>
+        </comp>
+        <comp ref="D2">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1B9</tstamp>
+        </comp>
+        <comp ref="D107">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1D7</tstamp>
+        </comp>
+        <comp ref="D1">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1E0</tstamp>
+        </comp>
+        <comp ref="D101">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1E9</tstamp>
+        </comp>
+        <comp ref="D108">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1F2</tstamp>
+        </comp>
+        <comp ref="D109">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D1FB</tstamp>
+        </comp>
+        <comp ref="D103">
+            <value>DIODE_MBR0520_SOD123</value>
+            <fields>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBR0520_SOD123"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D234</tstamp>
+        </comp>
+        <comp ref="R107">
+            <value>RES_4P7K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K70CT-ND</field>
+                <field name="Val">4.7K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P7K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D50F</tstamp>
+        </comp>
+        <comp ref="C2">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D778</tstamp>
+        </comp>
+        <comp ref="D102">
+            <value>LED_GREEN_DIFF_0805</value>
+            <fields>
+                <field name="PN">475-1410-1-ND</field>
+                <field name="Val">Green_diff</field>
+                <field name="Package">0805</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="LED_GREEN_DIFF_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075DC11</tstamp>
+        </comp>
+        <comp ref="D104">
+            <value>LED_GREEN_DIFF_0805</value>
+            <fields>
+                <field name="PN">475-1410-1-ND</field>
+                <field name="Val">Green_diff</field>
+                <field name="Package">0805</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="LED_GREEN_DIFF_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075DC2F</tstamp>
+        </comp>
+        <comp ref="D4">
+            <value>LED_BLUE_0805</value>
+            <fields>
+                <field name="PN">160-1579-1-ND</field>
+                <field name="Val">Blue</field>
+                <field name="Package">0805</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="LED_BLUE_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075DC37</tstamp>
+        </comp>
+        <comp ref="D105">
+            <value>LED_YELLOW_0805</value>
+            <fields>
+                <field name="PN">754-1135-1-ND</field>
+                <field name="Val">Yellow</field>
+                <field name="Package">0805</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="LED_YELLOW_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075DC54</tstamp>
+        </comp>
+        <comp ref="D106">
+            <value>LED_YELLOW_0805</value>
+            <fields>
+                <field name="PN">754-1135-1-ND</field>
+                <field name="Val">Yellow</field>
+                <field name="Package">0805</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="LED_YELLOW_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075DC72</tstamp>
+        </comp>
+        <comp ref="SW102">
+            <value>SW_PB_MJTP1230</value>
+            <fields>
+                <field name="PN">679-2428-ND</field>
+                <field name="Package">6mmx6mm</field>
+                <field name="Name">MJTP1230</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="SW_PB_MJTP1230"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075E565</tstamp>
+        </comp>
+        <comp ref="SW101">
+            <value>SW_PB_MJTP1230</value>
+            <fields>
+                <field name="PN">679-2428-ND</field>
+                <field name="Package">6mmx6mm</field>
+                <field name="Name">MJTP1230</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="SW_PB_MJTP1230"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075E583</tstamp>
+        </comp>
+        <comp ref="C110">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F040</tstamp>
+        </comp>
+        <comp ref="C109">
+            <value>CAP_1UF_10P_25V_X7R_0805</value>
+            <fields>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_25V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F0A5</tstamp>
+        </comp>
+        <comp ref="C111">
+            <value>CAP_22UF_20P_10V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-1343-1-ND</field>
+                <field name="Val">22uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">20%</field>
+                <field name="Voltage">10V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_22UF_20P_10V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F355</tstamp>
+        </comp>
+        <comp ref="C112">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F3A4</tstamp>
+        </comp>
+        <comp ref="C113">
+            <value>CAP_22UF_20P_10V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-1343-1-ND</field>
+                <field name="Val">22uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">20%</field>
+                <field name="Voltage">10V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_22UF_20P_10V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F669</tstamp>
+        </comp>
+        <comp ref="C114">
+            <value>CAP_22UF_20P_10V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-1343-1-ND</field>
+                <field name="Val">22uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">20%</field>
+                <field name="Voltage">10V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_22UF_20P_10V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F674</tstamp>
+        </comp>
+        <comp ref="R101">
+            <value>RES_330_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_330_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D489</tstamp>
+        </comp>
+        <comp ref="R108">
+            <value>RES_330_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_330_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D4BD</tstamp>
+        </comp>
+        <comp ref="R109">
+            <value>RES_330_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_330_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D4C8</tstamp>
+        </comp>
+        <comp ref="R105">
+            <value>RES_330_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_330_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D4D3</tstamp>
+        </comp>
+        <comp ref="R5">
+            <value>RES_330_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_330_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075D4DE</tstamp>
+        </comp>
+        <comp ref="R1">
+            <value>RES_1K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">CR0805-FX-1001ELFCT-ND</field>
+                <field name="Val">1K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_1K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F198</tstamp>
+        </comp>
+        <comp ref="R2">
+            <value>RES_1K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">CR0805-FX-1001ELFCT-ND</field>
+                <field name="Val">1K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_1K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5075F1D6</tstamp>
+        </comp>
+        <comp ref="P2">
+            <value>CONN_JST_PH_3</value>
+            <fields>
+                <field name="PN">455-1750-1-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_JST_PH_3"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50760072</tstamp>
+        </comp>
+        <comp ref="P1">
+            <value>CONN_JST_PH_4</value>
+            <fields>
+                <field name="PN">455-1751-1-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_JST_PH_4"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5076008B</tstamp>
+        </comp>
+        <comp ref="C1001">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>507617D1</tstamp>
+        </comp>
+        <comp ref="J101">
+            <value>CONN_USB_MINI_B</value>
+            <fields>
+                <field name="PN">H2961CT-ND</field>
+                <field name="Name">USB Mini B</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_USB_MINI_B"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50763739</tstamp>
+        </comp>
+        <comp ref="J102">
+            <value>CONN_USB_MINI_B</value>
+            <fields>
+                <field name="PN">H2961CT-ND</field>
+                <field name="Name">USB Mini B</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_USB_MINI_B"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50763A25</tstamp>
+        </comp>
+        <comp ref="U1000">
+            <value>IC_LPC1343_LQFP48</value>
+            <fields>
+                <field name="PN">568-4945-ND</field>
+                <field name="Name">LPC1343</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LPC1343_LQFP48"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5076CEAC</tstamp>
+        </comp>
+        <comp ref="R103">
+            <value>RES_1P5K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT1K50CT-ND</field>
+                <field name="Val">1.5K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_1P5K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5076BD04</tstamp>
+        </comp>
+        <comp ref="R104">
+            <value>RES_100K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT100KCT-ND</field>
+                <field name="Val">100K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_100K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5076DAC5</tstamp>
+        </comp>
+        <comp ref="U1020">
+            <value>IC_XBEE_SMD</value>
+            <fields>
+                <field name="PN">12345678</field>
+                <field name="Name">XBee SMD</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_XBEE_SMD"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5076E161</tstamp>
+        </comp>
+        <comp ref="U1050">
+            <value>IC_MCP1700T33_SOT23</value>
+            <fields>
+                <field name="PN">MCP1700T3302ETTCT-ND</field>
+                <field name="Name">MCP1700T3302</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_MCP1700T33_SOT23"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5077156D</tstamp>
+        </comp>
+        <comp ref="C1234">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50786471</tstamp>
+        </comp>
+        <comp ref="C1235">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>507864B3</tstamp>
+        </comp>
+        <comp ref="C12345">
+            <value>CAP_22UF_20P_10V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-1343-1-ND</field>
+                <field name="Val">22uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">20%</field>
+                <field name="Voltage">10V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_22UF_20P_10V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>50786C43</tstamp>
+        </comp>
+        <comp ref="U104">
+            <value>IC_LM3414_PSOP8</value>
+            <fields>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LM3414_PSOP8"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089E636</tstamp>
+        </comp>
+        <comp ref="D113">
+            <value>DIODE_MBRA340T3G_SMA</value>
+            <fields>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBRA340T3G_SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089ED0C</tstamp>
+        </comp>
+        <comp ref="L104">
+            <value>IND_39UH</value>
+            <fields>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="IND_39UH"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089F08A</tstamp>
+        </comp>
+        <comp ref="C140">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089F180</tstamp>
+        </comp>
+        <comp ref="R119">
+            <value>RES_80P6K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_80P6K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089F522</tstamp>
+        </comp>
+        <comp ref="R114">
+            <value>RES_4P42K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P42K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089F62F</tstamp>
+        </comp>
+        <comp ref="C135">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089FA12</tstamp>
+        </comp>
+        <comp ref="C130">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089FC14</tstamp>
+        </comp>
+        <comp ref="C120">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5089FC48</tstamp>
+        </comp>
+        <comp ref="U103">
+            <value>IC_LM3414_PSOP8</value>
+            <fields>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LM3414_PSOP8"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0013</tstamp>
+        </comp>
+        <comp ref="D112">
+            <value>DIODE_MBRA340T3G_SMA</value>
+            <fields>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBRA340T3G_SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A001C</tstamp>
+        </comp>
+        <comp ref="L103">
+            <value>IND_39UH</value>
+            <fields>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="IND_39UH"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0029</tstamp>
+        </comp>
+        <comp ref="C139">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0035</tstamp>
+        </comp>
+        <comp ref="R118">
+            <value>RES_80P6K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_80P6K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0051</tstamp>
+        </comp>
+        <comp ref="R113">
+            <value>RES_4P42K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P42K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A005E</tstamp>
+        </comp>
+        <comp ref="C134">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0081</tstamp>
+        </comp>
+        <comp ref="C129">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0095</tstamp>
+        </comp>
+        <comp ref="C119">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A00A0</tstamp>
+        </comp>
+        <comp ref="U102">
+            <value>IC_LM3414_PSOP8</value>
+            <fields>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LM3414_PSOP8"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A00C6</tstamp>
+        </comp>
+        <comp ref="D111">
+            <value>DIODE_MBRA340T3G_SMA</value>
+            <fields>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBRA340T3G_SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A00CF</tstamp>
+        </comp>
+        <comp ref="L102">
+            <value>IND_39UH</value>
+            <fields>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="IND_39UH"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A00DC</tstamp>
+        </comp>
+        <comp ref="C138">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A00E8</tstamp>
+        </comp>
+        <comp ref="R117">
+            <value>RES_80P6K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_80P6K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0104</tstamp>
+        </comp>
+        <comp ref="R112">
+            <value>RES_4P42K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P42K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0111</tstamp>
+        </comp>
+        <comp ref="C133">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0134</tstamp>
+        </comp>
+        <comp ref="C128">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0148</tstamp>
+        </comp>
+        <comp ref="C118">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0153</tstamp>
+        </comp>
+        <comp ref="U101">
+            <value>IC_LM3414_PSOP8</value>
+            <fields>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LM3414_PSOP8"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0179</tstamp>
+        </comp>
+        <comp ref="D110">
+            <value>DIODE_MBRA340T3G_SMA</value>
+            <fields>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBRA340T3G_SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0182</tstamp>
+        </comp>
+        <comp ref="L101">
+            <value>IND_39UH</value>
+            <fields>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="IND_39UH"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A018F</tstamp>
+        </comp>
+        <comp ref="C137">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A019B</tstamp>
+        </comp>
+        <comp ref="R116">
+            <value>RES_80P6K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_80P6K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A01B7</tstamp>
+        </comp>
+        <comp ref="R111">
+            <value>RES_4P42K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P42K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A01C4</tstamp>
+        </comp>
+        <comp ref="C132">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A01E7</tstamp>
+        </comp>
+        <comp ref="C122">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A01FB</tstamp>
+        </comp>
+        <comp ref="C117">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0206</tstamp>
+        </comp>
+        <comp ref="U105">
+            <value>IC_LM3414_PSOP8</value>
+            <fields>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_LM3414_PSOP8"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A022C</tstamp>
+        </comp>
+        <comp ref="D114">
+            <value>DIODE_MBRA340T3G_SMA</value>
+            <fields>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="DIODE_MBRA340T3G_SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0235</tstamp>
+        </comp>
+        <comp ref="L105">
+            <value>IND_39UH</value>
+            <fields>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="IND_39UH"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0242</tstamp>
+        </comp>
+        <comp ref="C141">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A024E</tstamp>
+        </comp>
+        <comp ref="R120">
+            <value>RES_80P6K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_80P6K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A026A</tstamp>
+        </comp>
+        <comp ref="R115">
+            <value>RES_4P42K_1P_1V8W_0805</value>
+            <fields>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="RES_4P42K_1P_1V8W_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0277</tstamp>
+        </comp>
+        <comp ref="C136">
+            <value>CAP_1UF_10P_50V_X5R_0805</value>
+            <fields>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_1UF_10P_50V_X5R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A029A</tstamp>
+        </comp>
+        <comp ref="C131">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A02AE</tstamp>
+        </comp>
+        <comp ref="C121">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A02B9</tstamp>
+        </comp>
+        <comp ref="Q101">
+            <value>TR_N_SI2308BDS</value>
+            <fields>
+                <field name="PN">SI2308BDS-T1-GE3CT-ND</field>
+                <field name="Name">SI2308BDS</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="TR_N_SI2308BDS"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0FC8</tstamp>
+        </comp>
+        <comp ref="P102">
+            <value>CONN_JST_PH_2</value>
+            <fields>
+                <field name="PN">455-1749-1-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_JST_PH_2"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A0FF8</tstamp>
+        </comp>
+        <comp ref="P101">
+            <value>CONN_JST_PH_3</value>
+            <fields>
+                <field name="PN">455-1750-1-ND</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_JST_PH_3"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A12C1</tstamp>
+        </comp>
+        <comp ref="P104">
+            <value>CONN_5X2</value>
+            <fields>
+                <field name="PN">609-1767-ND</field>
+                <field name="Name">CONN_5X2</field>
+            </fields>
+            <libsource lib="conn" part="CONN_5X2"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A1EA8</tstamp>
+        </comp>
+        <comp ref="P103">
+            <value>CONN_2</value>
+            <fields>
+                <field name="PN">A30614-ND</field>
+                <field name="Name">HEADER R/A 0p165in</field>
+            </fields>
+            <libsource lib="conn" part="CONN_2"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A29DD</tstamp>
+        </comp>
+        <comp ref="C116">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A2D03</tstamp>
+        </comp>
+        <comp ref="C103">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A2D7E</tstamp>
+        </comp>
+        <comp ref="C145">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A360D</tstamp>
+        </comp>
+        <comp ref="C142">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A3618</tstamp>
+        </comp>
+        <comp ref="C148">
+            <value>CAP_0P1UF_10P_50V_X7R_0805</value>
+            <fields>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_0P1UF_10P_50V_X7R_0805"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508A3A1E</tstamp>
+        </comp>
+        <comp ref="C1002">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508B0C6A</tstamp>
+        </comp>
+        <comp ref="C1008">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508B0D40</tstamp>
+        </comp>
+        <comp ref="C1011">
+            <value>CAP_2P2UF_10P_50V_X5R_1206</value>
+            <fields>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CAP_2P2UF_10P_50V_X5R_1206"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>508B0D63</tstamp>
+        </comp>
+        <comp ref="U1010">
+            <value>IC_FT232RL_SSOP28</value>
+            <fields>
+                <field name="PN">768-1007-1-ND</field>
+                <field name="Name">FT232RL</field>
+            </fields>
+            <libsource lib="Joe_Chips" part="IC_FT232RL_SSOP28"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5090185F</tstamp>
+        </comp>
+        <comp ref="P105">
+            <value>CONN_TERM_BLOCK_2POS_3P5MM</value>
+            <fields>
+                <field name="PN">A98036-ND</field>
+                <field name="Name">TRM_BLK_2</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_TERM_BLOCK_2POS_3P5MM"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>51525BEF</tstamp>
+        </comp>
+        <comp ref="P106">
+            <value>CONN_TERM_BLOCK_2POS_3P5MM</value>
+            <fields>
+                <field name="PN">A98036-ND</field>
+                <field name="Name">TRM_BLK_2</field>
+            </fields>
+            <libsource lib="Joe_Discrete" part="CONN_TERM_BLOCK_2POS_3P5MM"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>515268F6</tstamp>
+        </comp>
+        <comp ref="P107">
+            <value>CONN_TERM_BLOCK_4POS_3P5MM</value>
+            <fields>
+                <field name="PN">ED2742-ND</field>
+                <field name="Name">TRM_BLK_4</field>
+            </fields>
+            <libsource lib="main_control_board-cache" part="CONN_TERM_BLOCK_4POS_3P5MM"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5152754B</tstamp>
+        </comp>
+    </components>
+    <libparts>
+        <libpart lib="device" part="MOS_P">
+            <docs>transistors/mos/*.*</docs>
+            <fields>
+                <field name="Reference">Q</field>
+                <field name="Value">MOS_P</field>
+            </fields>
+            <pins>
+                <pin num="D" name="D" type="passive"/>
+                <pin num="G" name="G" type="input"/>
+                <pin num="S" name="S" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_1">
+            <description>1 pin</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_1</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_2">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_2</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="PM" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_5X2">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_5X2</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+                <pin num="3" name="~" type="passive"/>
+                <pin num="4" name="~" type="passive"/>
+                <pin num="5" name="~" type="passive"/>
+                <pin num="6" name="~" type="passive"/>
+                <pin num="7" name="~" type="passive"/>
+                <pin num="8" name="~" type="passive"/>
+                <pin num="9" name="~" type="passive"/>
+                <pin num="10" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Chips" part="ic_ft232rl_ssop28">
+            <description>USB to serial interface</description>
+            <footprints>
+                <fp>SSOP28</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ic_ft232rl_ssop28</field>
+                <field name="PN">768-1007-1-ND</field>
+                <field name="Name">FT232RL</field>
+            </fields>
+            <pins>
+                <pin num="1" name="TXD" type="output"/>
+                <pin num="2" name="DTR" type="output"/>
+                <pin num="3" name="RTS" type="output"/>
+                <pin num="4" name="VCCIO" type="input"/>
+                <pin num="5" name="RXD" type="input"/>
+                <pin num="6" name="RI" type="input"/>
+                <pin num="7" name="GND" type="power_in"/>
+                <pin num="9" name="DCR" type="input"/>
+                <pin num="10" name="DCD" type="input"/>
+                <pin num="11" name="CTS" type="input"/>
+                <pin num="12" name="CBUS4" type="BiDi"/>
+                <pin num="13" name="CBUS2" type="BiDi"/>
+                <pin num="14" name="CBUS3" type="BiDi"/>
+                <pin num="15" name="USBD+" type="BiDi"/>
+                <pin num="16" name="USBD-" type="BiDi"/>
+                <pin num="17" name="3V3OUT" type="input"/>
+                <pin num="18" name="GND" type="power_in"/>
+                <pin num="19" name="RESET" type="input"/>
+                <pin num="20" name="VCC" type="power_in"/>
+                <pin num="21" name="GND" type="power_in"/>
+                <pin num="22" name="CBUS1/RX_LED#" type="output"/>
+                <pin num="23" name="CBUS0/TX_LED#" type="BiDi"/>
+                <pin num="25" name="AGND" type="power_in"/>
+                <pin num="26" name="TEST" type="power_in"/>
+                <pin num="27" name="OSCI" type="input"/>
+                <pin num="28" name="OSCO" type="output"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_0p1uf_10p_50v_x7r_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_0p1uf_10p_50v_x7r_0805</field>
+                <field name="PN">311-1140-1-ND</field>
+                <field name="Val">0.1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Chips" part="ic_lm3414_psop8">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ic_lm3414_psop8</field>
+                <field name="PN">LM3414MR/NOPB-ND</field>
+                <field name="Name">LM3414</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VCC" type="input"/>
+                <pin num="2" name="PGND" type="input"/>
+                <pin num="3" name="IADJ" type="input"/>
+                <pin num="4" name="GND" type="input"/>
+                <pin num="5" name="FS" type="input"/>
+                <pin num="6" name="DIM" type="input"/>
+                <pin num="7" name="LX" type="input"/>
+                <pin num="8" name="VIN" type="input"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Chips" part="ic_lpc1343_lqfp48">
+            <description>LPC1343 ARM Cortex M3</description>
+            <footprints>
+                <fp>LQFP48</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ic_lpc1343_lqfp48</field>
+                <field name="PN">568-4945-ND</field>
+                <field name="Name">LPC1343</field>
+            </fields>
+            <pins>
+                <pin num="1" name="PIO2_6" type="BiDi"/>
+                <pin num="2" name="PIO2_0-nDTR" type="BiDi"/>
+                <pin num="3" name="nRESET-PIO0_0" type="BiDi"/>
+                <pin num="4" name="nMSC-PIO0_1-CLKOUT-CT32B0_MAT2-USB_FTOGGLE" type="BiDi"/>
+                <pin num="5" name="GND" type="power_in"/>
+                <pin num="6" name="XTALIN" type="passive"/>
+                <pin num="7" name="XTALOUT" type="passive"/>
+                <pin num="8" name="VDD_IO" type="power_in"/>
+                <pin num="9" name="PIO1_8-CT16B1_CAP0" type="BiDi"/>
+                <pin num="10" name="PIO0_2-SSEL-CT16B0_CAP0" type="BiDi"/>
+                <pin num="11" name="PIO2_7" type="BiDi"/>
+                <pin num="12" name="PIO2_8" type="BiDi"/>
+                <pin num="13" name="PIO2_1-nDSR" type="BiDi"/>
+                <pin num="14" name="PIO0_3-USB_VBUS" type="power_in"/>
+                <pin num="15" name="PIO0_4-SCL" type="BiDi"/>
+                <pin num="16" name="PIO0_5-SDA" type="BiDi"/>
+                <pin num="17" name="PIO1_9-CT16B1_MAT0" type="BiDi"/>
+                <pin num="18" name="PIO2_4" type="BiDi"/>
+                <pin num="19" name="USB_DM" type="BiDi"/>
+                <pin num="20" name="USB_DP" type="BiDi"/>
+                <pin num="21" name="PIO2_5" type="BiDi"/>
+                <pin num="22" name="PIO0_6-nUSB_CONNECT-SCK" type="BiDi"/>
+                <pin num="23" name="PIO0_7-nCTS" type="BiDi"/>
+                <pin num="24" name="PIO2_9" type="BiDi"/>
+                <pin num="25" name="PIO2_10" type="BiDi"/>
+                <pin num="26" name="PIO2_2-nDCD" type="BiDi"/>
+                <pin num="27" name="PIO0_8-MISO-CT16B0_MAT0" type="BiDi"/>
+                <pin num="28" name="PIO0_9-MOSI-CT16B_MAT1-SWO" type="BiDi"/>
+                <pin num="29" name="SWCLK-PIO0_10-SCK-CT16B0_MAT2" type="BiDi"/>
+                <pin num="30" name="PIO1_10-AD6-CT16B1_MAT1" type="BiDi"/>
+                <pin num="31" name="PIO2_11-SCK" type="BiDi"/>
+                <pin num="32" name="PIO0_11-AD0-CT32B0_MAT3" type="BiDi"/>
+                <pin num="33" name="PIO1_0-AD1-CT32B_CAP0" type="BiDi"/>
+                <pin num="34" name="PIO1_1-AD2-CT32B1_MAT0" type="BiDi"/>
+                <pin num="35" name="PIO1_2-AD3-CT32B1_MAT1" type="BiDi"/>
+                <pin num="36" name="PIO3_0" type="BiDi"/>
+                <pin num="37" name="PIO3_1" type="BiDi"/>
+                <pin num="38" name="PIO2_3_nRI" type="BiDi"/>
+                <pin num="39" name="SWDIO-PIO1_3-AD4-CT32B1_MAT2" type="BiDi"/>
+                <pin num="40" name="PIO1_4-AD5-CT32B1_MAT3-WAKEUP" type="BiDi"/>
+                <pin num="41" name="GND" type="power_in"/>
+                <pin num="42" name="PIO1_11-AD7" type="BiDi"/>
+                <pin num="43" name="PIO3_2" type="BiDi"/>
+                <pin num="44" name="VDD_3V3" type="power_in"/>
+                <pin num="45" name="PIO1_5-nRTS-CT32B0_CAP0" type="BiDi"/>
+                <pin num="46" name="PIO1_6-RXD-CT32B0_MAT0" type="BiDi"/>
+                <pin num="47" name="PIO1_7-TXD-CT32B0_MAT1" type="BiDi"/>
+                <pin num="48" name="PIO3_3" type="BiDi"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Chips" part="ic_mcp1700t33_sot23">
+            <description>3.3V 250mA Regulator 3.5V-6V input</description>
+            <footprints>
+                <fp>SOT23-3</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ic_mcp1700t33_sot23</field>
+                <field name="PN">MCP1700T3302ETTCT-ND</field>
+                <field name="Name">MCP1700T3302</field>
+            </fields>
+            <pins>
+                <pin num="1" name="GND" type="input"/>
+                <pin num="2" name="VOUT" type="input"/>
+                <pin num="3" name="VIN" type="input"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Chips" part="ic_xbee_smd">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ic_xbee_smd</field>
+                <field name="PN">12345678</field>
+                <field name="Name">XBee SMD</field>
+            </fields>
+            <pins>
+                <pin num="1" name="Vcc" type="power_in"/>
+                <pin num="2" name="Dout" type="output"/>
+                <pin num="3" name="Din/Conf" type="input"/>
+                <pin num="4" name="Dio12" type="output"/>
+                <pin num="5" name="~Rst" type="passive"/>
+                <pin num="6" name="PWM/RSSI/Dio10" type="output"/>
+                <pin num="7" name="PWM/DIO11" type="passive"/>
+                <pin num="8" name="N/C" type="passive"/>
+                <pin num="9" name="/DTR/Sleep_RQ/Di8" type="input"/>
+                <pin num="10" name="Gnd" type="power_in"/>
+                <pin num="11" name="Dio4" type="passive"/>
+                <pin num="12" name="CTS/Dio7" type="passive"/>
+                <pin num="13" name="ON/Sleep/Dio9" type="output"/>
+                <pin num="14" name="N/C" type="input"/>
+                <pin num="15" name="Asso/Dio5" type="passive"/>
+                <pin num="16" name="RTS/Dio6" type="passive"/>
+                <pin num="17" name="AD3/Dio3" type="passive"/>
+                <pin num="18" name="AD2/Dio2" type="passive"/>
+                <pin num="19" name="AD1/Dio1" type="passive"/>
+                <pin num="20" name="Comi/AD0/Dio0" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_1uf_10p_25v_x7r_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_1uf_10p_25v_x7r_0805</field>
+                <field name="PN">445-1354-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">25V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_1uf_10p_50v_x5r_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_1uf_10p_50v_x5r_0805</field>
+                <field name="PN">587-2229-1-ND</field>
+                <field name="Val">1uF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_22uf_20p_10v_x5r_1206">
+            <footprints>
+                <fp>SM1206</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_22uf_20p_10v_x5r_1206</field>
+                <field name="PN">587-1343-1-ND</field>
+                <field name="Val">22uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">20%</field>
+                <field name="Voltage">10V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_2p2uf_10p_50v_x5r_1206">
+            <footprints>
+                <fp>SM1206</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_2p2uf_10p_50v_x5r_1206</field>
+                <field name="PN">587-2402-1-ND</field>
+                <field name="Val">2.2uF</field>
+                <field name="Package">1206</field>
+                <field name="Tol">10%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="cap_39pf_5p_50v_np0_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">cap_39pf_5p_50v_np0_0805</field>
+                <field name="PN">399-1116-1-ND</field>
+                <field name="Val">39pF</field>
+                <field name="Package">0805</field>
+                <field name="Tol">5%</field>
+                <field name="Voltage">50V</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="CONN_JST_PH_2">
+            <footprints>
+                <fp>JST_PH_2</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_JST_PH_2</field>
+                <field name="PN">455-1749-1-ND</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="PM" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="CONN_JST_PH_3">
+            <footprints>
+                <fp>JST_PH_3</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_JST_PH_3</field>
+                <field name="PN">455-1750-1-ND</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+                <pin num="3" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="CONN_JST_PH_4">
+            <footprints>
+                <fp>JST_PH_4</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_JST_PH_4</field>
+                <field name="PN">455-1751-1-ND</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+                <pin num="3" name="~" type="passive"/>
+                <pin num="4" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="CONN_TERM_BLOCK_2POS_3P5MM">
+            <footprints>
+                <fp>CONN_TERM_BLOCK_2POS_3P5MM</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_TERM_BLOCK_2POS_3P5MM</field>
+                <field name="PN">A98036-ND</field>
+                <field name="Name">TRM_BLK_2</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="PM" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="conn_usb_mini_b">
+            <description>Mini USB B Connector</description>
+            <footprints>
+                <fp>CONN_USB_MINI_B</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">J</field>
+                <field name="Value">conn_usb_mini_b</field>
+                <field name="PN">H2961CT-ND</field>
+                <field name="Name">USB Mini B</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VBUS" type="output"/>
+                <pin num="2" name="D-" type="BiDi"/>
+                <pin num="3" name="D+" type="BiDi"/>
+                <pin num="4" name="ID" type="input"/>
+                <pin num="5" name="GND" type="output"/>
+                <pin num="6" name="CHGND" type="BiDi"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="crystal_12mhz_18pf_cs3p2x5">
+            <description>12MHz 3.2mm x 5mm Crystal</description>
+            <footprints>
+                <fp>CRYSTAL_3P2X5</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">X</field>
+                <field name="Value">crystal_12mhz_18pf_cs3p2x5</field>
+                <field name="PN">CTX1162CT-ND</field>
+                <field name="Freq">12MHz</field>
+                <field name="Package">3P2x5</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+                <pin num="2" name="2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="diode_mbr0520_sod123">
+            <description>diode 385mV @ 500mA MAX schottky</description>
+            <footprints>
+                <fp>SOD123</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">diode_mbr0520_sod123</field>
+                <field name="PN">MBR0520LCT-ND</field>
+                <field name="Package">SOD123</field>
+                <field name="Name">MBR0520</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="diode_mbra340t3g_sma">
+            <footprints>
+                <fp>SMA</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">diode_mbra340t3g_sma</field>
+                <field name="PN">MBRA340T3GOSCT-ND</field>
+                <field name="Package">SMA</field>
+                <field name="Name">MBRA340T3G</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="ind_39uh">
+            <footprints>
+                <fp>SRR1208</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">L</field>
+                <field name="Value">ind_39uh</field>
+                <field name="PN">SRR1208-390YLCT-ND</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+                <pin num="2" name="2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="led_blue_0805">
+            <footprints>
+                <fp>led_blue_0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">led_blue_0805</field>
+                <field name="PN">160-1579-1-ND</field>
+                <field name="Val">Blue</field>
+                <field name="Package">0805</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="led_green_diff_0805">
+            <footprints>
+                <fp>led_green_0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">led_green_diff_0805</field>
+                <field name="PN">475-1410-1-ND</field>
+                <field name="Val">Green_diff</field>
+                <field name="Package">0805</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="led_yellow_0805">
+            <footprints>
+                <fp>led_yellow_0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">led_yellow_0805</field>
+                <field name="PN">754-1135-1-ND</field>
+                <field name="Val">Yellow</field>
+                <field name="Package">0805</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_100k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_100k_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT100KCT-ND</field>
+                <field name="Val">100K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_1k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_1k_1p_1v8w_0805</field>
+                <field name="PN">CR0805-FX-1001ELFCT-ND</field>
+                <field name="Val">1K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_1p5k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_1p5k_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT1K50CT-ND</field>
+                <field name="Val">1.5K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_330_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_330_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT330RCT-ND</field>
+                <field name="Val">330</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_4p42k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_4p42k_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT4K42CT-ND</field>
+                <field name="Val">4.42K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_4p7k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_4p7k_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT4K70CT-ND</field>
+                <field name="Val">4.7K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="res_80p6k_1p_1v8w_0805">
+            <footprints>
+                <fp>SM0805</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">res_80p6k_1p_1v8w_0805</field>
+                <field name="PN">RMCF0805FT80K6CT-ND</field>
+                <field name="Val">80.6K</field>
+                <field name="Package">0805</field>
+                <field name="Tol">1%</field>
+                <field name="Power">1/8W</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="sw_pb_mjtp1230">
+            <description>6mmx6mm TH push button Switch</description>
+            <footprints>
+                <fp>TACT_SW_TH_6x6</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">SW</field>
+                <field name="Value">sw_pb_mjtp1230</field>
+                <field name="PN">679-2428-ND</field>
+                <field name="Package">6mmx6mm</field>
+                <field name="Name">MJTP1230</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+                <pin num="2" name="2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="Joe_Discrete" part="tr_n_si2308bds">
+            <footprints>
+                <fp>SOT23GDS</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">Q</field>
+                <field name="Value">tr_n_si2308bds</field>
+                <field name="PN">SI2308BDS-T1-GE3CT-ND</field>
+                <field name="Name">SI2308BDS</field>
+            </fields>
+            <pins>
+                <pin num="D" name="D" type="passive"/>
+                <pin num="G" name="G" type="input"/>
+                <pin num="S" name="S" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="main_control_board-cache" part="CONN_TERM_BLOCK_4POS_3P5MM">
+            <footprints>
+                <fp>CONN_TERM_BLOCK_2POS_3P5MM</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_TERM_BLOCK_4POS_3P5MM</field>
+                <field name="PN">ED2742-ND</field>
+                <field name="Name">TRM_BLK_4</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="PM" type="passive"/>
+                <pin num="3" name="~" type="input"/>
+                <pin num="4" name="~" type="input"/>
+            </pins>
+        </libpart>
+    </libparts>
+    <libraries>
+        <library logical="device">
+            <uri>/usr/share/kicad/library/device.lib</uri>
+        </library>
+        <library logical="conn">
+            <uri>/usr/share/kicad/library/conn.lib</uri>
+        </library>
+        <library logical="Joe_Chips">
+            <uri>/home/jschaack/Documents/Kicad_Library/Joe_Chips.lib</uri>
+        </library>
+        <library logical="Joe_Discrete">
+            <uri>/home/jschaack/Documents/Kicad_Library/Joe_Discrete.lib</uri>
+        </library>
+        <library logical="main_control_board-cache">
+            <uri>/home/jschaack/Documents/led-house-lighting/boards/main_control_board/main_control_board-cache.lib</uri>
+        </library>
+    </libraries>
+    <nets>
+        <net code="1" name="GND">
+            <node ref="C131" pin="2"/>
+            <node ref="C136" pin="2"/>
+            <node ref="R120" pin="2"/>
+            <node ref="Q101" pin="S"/>
+            <node ref="C121" pin="2"/>
+            <node ref="U1010" pin="7"/>
+            <node ref="C1008" pin="2"/>
+            <node ref="C127" pin="2"/>
+            <node ref="C126" pin="2"/>
+            <node ref="C2" pin="2"/>
+            <node ref="D104" pin="2"/>
+            <node ref="SW102" pin="1"/>
+            <node ref="P104" pin="2"/>
+            <node ref="P101" pin="1"/>
+            <node ref="C103" pin="2"/>
+            <node ref="P103" pin="1"/>
+            <node ref="C116" pin="2"/>
+            <node ref="R115" pin="2"/>
+            <node ref="C148" pin="2"/>
+            <node ref="C1002" pin="2"/>
+            <node ref="C134" pin="2"/>
+            <node ref="C129" pin="2"/>
+            <node ref="C119" pin="2"/>
+            <node ref="R118" pin="2"/>
+            <node ref="R113" pin="2"/>
+            <node ref="C1011" pin="2"/>
+            <node ref="U1010" pin="21"/>
+            <node ref="U1010" pin="25"/>
+            <node ref="U1010" pin="18"/>
+            <node ref="U1010" pin="26"/>
+            <node ref="C145" pin="2"/>
+            <node ref="C125" pin="2"/>
+            <node ref="C142" pin="2"/>
+            <node ref="U104" pin="4"/>
+            <node ref="U1000" pin="41"/>
+            <node ref="U1020" pin="10"/>
+            <node ref="U1050" pin="1"/>
+            <node ref="R104" pin="2"/>
+            <node ref="C1234" pin="2"/>
+            <node ref="C1235" pin="2"/>
+            <node ref="C12345" pin="2"/>
+            <node ref="U104" pin="2"/>
+            <node ref="U1000" pin="5"/>
+            <node ref="R101" pin="2"/>
+            <node ref="SW101" pin="1"/>
+            <node ref="C110" pin="2"/>
+            <node ref="C109" pin="2"/>
+            <node ref="C111" pin="2"/>
+            <node ref="C112" pin="2"/>
+            <node ref="C113" pin="2"/>
+            <node ref="C114" pin="2"/>
+            <node ref="J102" pin="5"/>
+            <node ref="J102" pin="6"/>
+            <node ref="P2" pin="3"/>
+            <node ref="P1" pin="4"/>
+            <node ref="C1001" pin="2"/>
+            <node ref="J101" pin="6"/>
+            <node ref="J101" pin="5"/>
+            <node ref="C102" pin="2"/>
+            <node ref="C104" pin="2"/>
+            <node ref="C107" pin="2"/>
+            <node ref="R106" pin="2"/>
+            <node ref="C1" pin="2"/>
+            <node ref="C101" pin="2"/>
+            <node ref="C124" pin="2"/>
+            <node ref="U103" pin="4"/>
+            <node ref="C117" pin="2"/>
+            <node ref="U103" pin="2"/>
+            <node ref="U101" pin="4"/>
+            <node ref="R119" pin="2"/>
+            <node ref="C135" pin="2"/>
+            <node ref="C130" pin="2"/>
+            <node ref="C120" pin="2"/>
+            <node ref="U101" pin="2"/>
+            <node ref="R114" pin="2"/>
+            <node ref="R116" pin="2"/>
+            <node ref="C128" pin="2"/>
+            <node ref="C122" pin="2"/>
+            <node ref="C133" pin="2"/>
+            <node ref="R111" pin="2"/>
+            <node ref="U105" pin="2"/>
+            <node ref="U102" pin="4"/>
+            <node ref="U102" pin="2"/>
+            <node ref="R112" pin="2"/>
+            <node ref="C118" pin="2"/>
+            <node ref="R117" pin="2"/>
+            <node ref="C132" pin="2"/>
+            <node ref="U105" pin="4"/>
+        </net>
+        <net code="2" name="/GRN_FS">
+            <node ref="R117" pin="1"/>
+            <node ref="U102" pin="5"/>
+        </net>
+        <net code="3" name="/GRN_DIM">
+            <node ref="U1000" pin="30"/>
+            <node ref="U102" pin="6"/>
+        </net>
+        <net code="4" name="/GRN_VCC">
+            <node ref="C133" pin="1"/>
+            <node ref="U102" pin="1"/>
+        </net>
+        <net code="5" name="/GRN_IADJ">
+            <node ref="U102" pin="3"/>
+            <node ref="R112" pin="1"/>
+        </net>
+        <net code="6" name="/RED_SW">
+            <node ref="L101" pin="2"/>
+            <node ref="U101" pin="7"/>
+            <node ref="D110" pin="1"/>
+        </net>
+        <net code="7" name="/RED_DIM">
+            <node ref="U101" pin="6"/>
+            <node ref="U1000" pin="40"/>
+        </net>
+        <net code="8" name="/WW2_SW">
+            <node ref="D114" pin="1"/>
+            <node ref="U105" pin="7"/>
+            <node ref="L105" pin="2"/>
+        </net>
+        <net code="9" name="/RED_FS">
+            <node ref="R116" pin="1"/>
+            <node ref="U101" pin="5"/>
+        </net>
+        <net code="10" name="/RED_IADJ">
+            <node ref="U101" pin="3"/>
+            <node ref="R111" pin="1"/>
+        </net>
+        <net code="11" name="/RED_VCC">
+            <node ref="C132" pin="1"/>
+            <node ref="U101" pin="1"/>
+        </net>
+        <net code="12" name="/WW_DIM">
+            <node ref="U104" pin="6"/>
+            <node ref="U1000" pin="27"/>
+        </net>
+        <net code="13" name="/WW_FS">
+            <node ref="R119" pin="1"/>
+            <node ref="U104" pin="5"/>
+        </net>
+        <net code="14" name="/WW_VCC">
+            <node ref="U104" pin="1"/>
+            <node ref="C135" pin="1"/>
+        </net>
+        <net code="15" name="/WW_IADJ">
+            <node ref="R114" pin="1"/>
+            <node ref="U104" pin="3"/>
+        </net>
+        <net code="16" name="/WW_OUT">
+            <node ref="P105" pin="1"/>
+            <node ref="C140" pin="2"/>
+            <node ref="L104" pin="1"/>
+        </net>
+        <net code="17" name="/BLU_FS">
+            <node ref="R118" pin="1"/>
+            <node ref="U103" pin="5"/>
+        </net>
+        <net code="18" name="/BLU_SW">
+            <node ref="U103" pin="7"/>
+            <node ref="L103" pin="2"/>
+            <node ref="D112" pin="1"/>
+        </net>
+        <net code="19" name="/BLU_DIM">
+            <node ref="U1000" pin="29"/>
+            <node ref="U103" pin="6"/>
+        </net>
+        <net code="20" name="/BLU_VCC">
+            <node ref="C134" pin="1"/>
+            <node ref="U103" pin="1"/>
+        </net>
+        <net code="21" name="+24V">
+            <node ref="D111" pin="2"/>
+            <node ref="U101" pin="8"/>
+            <node ref="U104" pin="8"/>
+            <node ref="P107" pin="4"/>
+            <node ref="D113" pin="2"/>
+            <node ref="P106" pin="2"/>
+            <node ref="C140" pin="1"/>
+            <node ref="C129" pin="1"/>
+            <node ref="C137" pin="1"/>
+            <node ref="P105" pin="2"/>
+            <node ref="U102" pin="8"/>
+            <node ref="C119" pin="1"/>
+            <node ref="C120" pin="1"/>
+            <node ref="C145" pin="1"/>
+            <node ref="C142" pin="1"/>
+            <node ref="C130" pin="1"/>
+            <node ref="D114" pin="2"/>
+            <node ref="C1002" pin="1"/>
+            <node ref="C117" pin="1"/>
+            <node ref="C138" pin="1"/>
+            <node ref="C122" pin="1"/>
+            <node ref="C118" pin="1"/>
+            <node ref="C128" pin="1"/>
+            <node ref="D112" pin="2"/>
+            <node ref="U105" pin="8"/>
+            <node ref="D110" pin="2"/>
+            <node ref="C148" pin="1"/>
+            <node ref="C141" pin="1"/>
+            <node ref="C121" pin="1"/>
+            <node ref="C131" pin="1"/>
+            <node ref="U103" pin="8"/>
+            <node ref="C103" pin="1"/>
+            <node ref="C1008" pin="1"/>
+            <node ref="C116" pin="1"/>
+            <node ref="P103" pin="2"/>
+            <node ref="C1011" pin="1"/>
+            <node ref="C139" pin="1"/>
+        </net>
+        <net code="22" name="/GRN_SW">
+            <node ref="U102" pin="7"/>
+            <node ref="D111" pin="1"/>
+            <node ref="L102" pin="2"/>
+        </net>
+        <net code="23" name="/GRN_OUT">
+            <node ref="L102" pin="1"/>
+            <node ref="P107" pin="2"/>
+            <node ref="C138" pin="2"/>
+        </net>
+        <net code="24" name="/BLU_IADJ">
+            <node ref="U103" pin="3"/>
+            <node ref="R113" pin="1"/>
+        </net>
+        <net code="25" name="/BLU_OUT">
+            <node ref="C139" pin="2"/>
+            <node ref="P107" pin="1"/>
+            <node ref="L103" pin="1"/>
+        </net>
+        <net code="26" name="">
+            <node ref="U1010" pin="28"/>
+        </net>
+        <net code="27" name="">
+            <node ref="U1010" pin="27"/>
+        </net>
+        <net code="28" name="">
+            <node ref="C1001" pin="1"/>
+            <node ref="U1010" pin="17"/>
+        </net>
+        <net code="29" name="/RED_OUT">
+            <node ref="L101" pin="1"/>
+            <node ref="C137" pin="2"/>
+            <node ref="P107" pin="3"/>
+        </net>
+        <net code="30" name="">
+            <node ref="U1010" pin="14"/>
+        </net>
+        <net code="31" name="">
+            <node ref="U1010" pin="13"/>
+        </net>
+        <net code="32" name="">
+            <node ref="U1010" pin="12"/>
+        </net>
+        <net code="33" name="+3.3V">
+            <node ref="Q102" pin="S"/>
+            <node ref="U1020" pin="1"/>
+            <node ref="C1235" pin="1"/>
+            <node ref="C1234" pin="1"/>
+            <node ref="U1050" pin="2"/>
+            <node ref="U1000" pin="44"/>
+            <node ref="U1010" pin="4"/>
+            <node ref="R5" pin="2"/>
+            <node ref="R1" pin="1"/>
+            <node ref="R2" pin="1"/>
+            <node ref="P2" pin="1"/>
+            <node ref="C114" pin="1"/>
+            <node ref="P104" pin="4"/>
+            <node ref="C112" pin="1"/>
+            <node ref="C110" pin="1"/>
+            <node ref="C109" pin="1"/>
+            <node ref="C111" pin="1"/>
+            <node ref="P1" pin="1"/>
+            <node ref="C113" pin="1"/>
+            <node ref="P101" pin="2"/>
+            <node ref="U1000" pin="8"/>
+            <node ref="R110" pin="1"/>
+            <node ref="C1" pin="1"/>
+            <node ref="R107" pin="1"/>
+            <node ref="C101" pin="1"/>
+            <node ref="R108" pin="2"/>
+            <node ref="C123" pin="1"/>
+            <node ref="R109" pin="2"/>
+            <node ref="C107" pin="1"/>
+            <node ref="C127" pin="1"/>
+            <node ref="R102" pin="1"/>
+        </net>
+        <net code="34" name="/SW4">
+            <node ref="U1000" pin="39"/>
+            <node ref="P104" pin="1"/>
+        </net>
+        <net code="35" name="/SW1">
+            <node ref="U1000" pin="38"/>
+            <node ref="P104" pin="3"/>
+        </net>
+        <net code="36" name="">
+            <node ref="U1010" pin="11"/>
+        </net>
+        <net code="37" name="">
+            <node ref="U1010" pin="10"/>
+        </net>
+        <net code="38" name="">
+            <node ref="U1010" pin="9"/>
+        </net>
+        <net code="39" name="">
+            <node ref="U1010" pin="6"/>
+        </net>
+        <net code="40" name="/WW2_VCC">
+            <node ref="U105" pin="1"/>
+            <node ref="C136" pin="1"/>
+        </net>
+        <net code="41" name="+5V">
+            <node ref="P102" pin="2"/>
+            <node ref="C12345" pin="1"/>
+            <node ref="U1010" pin="20"/>
+            <node ref="J101" pin="1"/>
+            <node ref="D103" pin="2"/>
+            <node ref="C102" pin="1"/>
+            <node ref="C104" pin="1"/>
+            <node ref="C126" pin="1"/>
+            <node ref="U1050" pin="3"/>
+        </net>
+        <net code="42" name="">
+            <node ref="P102" pin="1"/>
+            <node ref="Q101" pin="D"/>
+        </net>
+        <net code="43" name="/WW2_DIM">
+            <node ref="U1000" pin="28"/>
+            <node ref="U105" pin="6"/>
+        </net>
+        <net code="44" name="/WW2_IADJ">
+            <node ref="R115" pin="1"/>
+            <node ref="U105" pin="3"/>
+        </net>
+        <net code="45" name="/WW2_FS">
+            <node ref="R120" pin="1"/>
+            <node ref="U105" pin="5"/>
+        </net>
+        <net code="46" name="/WW2_OUT">
+            <node ref="C141" pin="2"/>
+            <node ref="L105" pin="1"/>
+            <node ref="P106" pin="1"/>
+        </net>
+        <net code="47" name="/RELAY_EN">
+            <node ref="Q101" pin="G"/>
+            <node ref="U1000" pin="45"/>
+        </net>
+        <net code="48" name="/AD1">
+            <node ref="U1000" pin="32"/>
+            <node ref="P104" pin="10"/>
+        </net>
+        <net code="49" name="/AD3">
+            <node ref="P104" pin="8"/>
+            <node ref="U1000" pin="34"/>
+        </net>
+        <net code="50" name="/MOTION_DET">
+            <node ref="U1000" pin="24"/>
+            <node ref="P101" pin="3"/>
+        </net>
+        <net code="51" name="/SW2">
+            <node ref="U1000" pin="36"/>
+            <node ref="P104" pin="6"/>
+        </net>
+        <net code="52" name="/SER_RX_LED">
+            <node ref="D106" pin="2"/>
+            <node ref="U1010" pin="22"/>
+        </net>
+        <net code="53" name="/SW3">
+            <node ref="P104" pin="5"/>
+            <node ref="U1000" pin="37"/>
+        </net>
+        <net code="54" name="/AD4">
+            <node ref="P104" pin="7"/>
+            <node ref="U1000" pin="35"/>
+        </net>
+        <net code="55" name="/AD2">
+            <node ref="P104" pin="9"/>
+            <node ref="U1000" pin="33"/>
+        </net>
+        <net code="56" name="/BOOT_SEL">
+            <node ref="D1" pin="1"/>
+            <node ref="D2" pin="1"/>
+            <node ref="D108" pin="1"/>
+            <node ref="C123" pin="2"/>
+            <node ref="R110" pin="2"/>
+            <node ref="U1000" pin="4"/>
+        </net>
+        <net code="57" name="/UC_XI">
+            <node ref="C125" pin="1"/>
+            <node ref="X101" pin="1"/>
+            <node ref="U1000" pin="6"/>
+        </net>
+        <net code="58" name="/BOOTSEL_RESET">
+            <node ref="D108" pin="2"/>
+            <node ref="D109" pin="2"/>
+            <node ref="SW102" pin="2"/>
+        </net>
+        <net code="59" name="">
+            <node ref="J101" pin="4"/>
+        </net>
+        <net code="60" name="">
+            <node ref="U1000" pin="1"/>
+        </net>
+        <net code="61" name="">
+            <node ref="U1000" pin="9"/>
+        </net>
+        <net code="62" name="">
+            <node ref="U1000" pin="2"/>
+        </net>
+        <net code="63" name="">
+            <node ref="J102" pin="4"/>
+        </net>
+        <net code="64" name="">
+            <node ref="D104" pin="1"/>
+            <node ref="R105" pin="2"/>
+        </net>
+        <net code="65" name="">
+            <node ref="D4" pin="1"/>
+            <node ref="R5" pin="1"/>
+        </net>
+        <net code="66" name="">
+            <node ref="D102" pin="2"/>
+            <node ref="R101" pin="1"/>
+        </net>
+        <net code="67" name="/~UC_RESET">
+            <node ref="SW101" pin="2"/>
+            <node ref="U1000" pin="3"/>
+            <node ref="D109" pin="1"/>
+            <node ref="D107" pin="1"/>
+            <node ref="D101" pin="1"/>
+            <node ref="R102" pin="2"/>
+        </net>
+        <net code="68" name="/~USBTOUC_RESET">
+            <node ref="D107" pin="2"/>
+            <node ref="U1010" pin="2"/>
+        </net>
+        <net code="69" name="/USBTOUC_BOOT_SEL">
+            <node ref="U1010" pin="3"/>
+            <node ref="D2" pin="2"/>
+        </net>
+        <net code="70" name="/XB_RSSI">
+            <node ref="D102" pin="1"/>
+            <node ref="U1020" pin="6"/>
+        </net>
+        <net code="71" name="/~SER_USB_D">
+            <node ref="U1010" pin="16"/>
+            <node ref="J101" pin="2"/>
+        </net>
+        <net code="72" name="">
+            <node ref="HW103" pin="1"/>
+        </net>
+        <net code="73" name="">
+            <node ref="HW102" pin="1"/>
+        </net>
+        <net code="74" name="">
+            <node ref="HW101" pin="1"/>
+        </net>
+        <net code="75" name="">
+            <node ref="HW100" pin="1"/>
+        </net>
+        <net code="76" name="/SER_RX_LED_R">
+            <node ref="R109" pin="1"/>
+            <node ref="D106" pin="1"/>
+        </net>
+        <net code="77" name="/SER_TX_LED_R">
+            <node ref="D105" pin="1"/>
+            <node ref="R108" pin="1"/>
+        </net>
+        <net code="78" name="/SER_TX_LED">
+            <node ref="U1010" pin="23"/>
+            <node ref="D105" pin="2"/>
+        </net>
+        <net code="79" name="/~SER_RST">
+            <node ref="U1010" pin="19"/>
+            <node ref="R106" pin="1"/>
+        </net>
+        <net code="80" name="/SER_USB_D">
+            <node ref="U1010" pin="15"/>
+            <node ref="J101" pin="3"/>
+        </net>
+        <net code="81" name="">
+            <node ref="U1000" pin="10"/>
+        </net>
+        <net code="82" name="/UC_D_PU">
+            <node ref="R105" pin="1"/>
+            <node ref="R103" pin="2"/>
+            <node ref="Q102" pin="D"/>
+        </net>
+        <net code="83" name="/UC_USB_CONNECT">
+            <node ref="U1000" pin="22"/>
+            <node ref="R107" pin="2"/>
+            <node ref="Q102" pin="G"/>
+        </net>
+        <net code="84" name="/UC_XO">
+            <node ref="X101" pin="2"/>
+            <node ref="U1000" pin="7"/>
+            <node ref="C124" pin="1"/>
+        </net>
+        <net code="85" name="/WW_SW">
+            <node ref="D113" pin="1"/>
+            <node ref="U104" pin="7"/>
+            <node ref="L104" pin="2"/>
+        </net>
+        <net code="86" name="/UC_VBUS">
+            <node ref="C2" pin="1"/>
+            <node ref="R104" pin="1"/>
+            <node ref="D103" pin="1"/>
+            <node ref="J102" pin="1"/>
+            <node ref="U1000" pin="14"/>
+        </net>
+        <net code="87" name="">
+            <node ref="U1020" pin="4"/>
+        </net>
+        <net code="88" name="/~UC_D">
+            <node ref="U1000" pin="19"/>
+            <node ref="J102" pin="2"/>
+        </net>
+        <net code="89" name="">
+            <node ref="U1020" pin="12"/>
+        </net>
+        <net code="90" name="">
+            <node ref="U1020" pin="19"/>
+        </net>
+        <net code="91" name="">
+            <node ref="U1020" pin="18"/>
+        </net>
+        <net code="92" name="">
+            <node ref="U1020" pin="17"/>
+        </net>
+        <net code="93" name="/XB_BOOT_SEL">
+            <node ref="U1020" pin="16"/>
+            <node ref="D1" pin="2"/>
+        </net>
+        <net code="94" name="">
+            <node ref="U1020" pin="15"/>
+        </net>
+        <net code="95" name="">
+            <node ref="U1020" pin="14"/>
+        </net>
+        <net code="96" name="">
+            <node ref="U1020" pin="13"/>
+        </net>
+        <net code="97" name="">
+            <node ref="U1000" pin="48"/>
+        </net>
+        <net code="98" name="">
+            <node ref="U1020" pin="11"/>
+        </net>
+        <net code="99" name="">
+            <node ref="U1020" pin="20"/>
+        </net>
+        <net code="100" name="/~XBEETOUC_RESET">
+            <node ref="D101" pin="2"/>
+            <node ref="U1020" pin="9"/>
+        </net>
+        <net code="101" name="">
+            <node ref="U1020" pin="8"/>
+        </net>
+        <net code="102" name="">
+            <node ref="U1020" pin="7"/>
+        </net>
+        <net code="103" name="">
+            <node ref="U1020" pin="5"/>
+        </net>
+        <net code="104" name="">
+            <node ref="U1000" pin="43"/>
+        </net>
+        <net code="105" name="">
+            <node ref="U1000" pin="23"/>
+        </net>
+        <net code="106" name="">
+            <node ref="U1000" pin="13"/>
+        </net>
+        <net code="107" name="/EXTRA_AD">
+            <node ref="P2" pin="2"/>
+            <node ref="U1000" pin="42"/>
+        </net>
+        <net code="108" name="">
+            <node ref="U1000" pin="12"/>
+        </net>
+        <net code="109" name="">
+            <node ref="U1000" pin="31"/>
+        </net>
+        <net code="110" name="">
+            <node ref="U1000" pin="21"/>
+        </net>
+        <net code="111" name="">
+            <node ref="U1000" pin="11"/>
+        </net>
+        <net code="112" name="/UC_D">
+            <node ref="R103" pin="1"/>
+            <node ref="J102" pin="3"/>
+            <node ref="U1000" pin="20"/>
+        </net>
+        <net code="113" name="">
+            <node ref="U1000" pin="18"/>
+        </net>
+        <net code="114" name="/SER_UCTOUSB">
+            <node ref="U1010" pin="5"/>
+            <node ref="U1000" pin="47"/>
+            <node ref="U1020" pin="3"/>
+        </net>
+        <net code="115" name="">
+            <node ref="U1000" pin="17"/>
+        </net>
+        <net code="116" name="/SER_USBTOUC">
+            <node ref="U1020" pin="2"/>
+            <node ref="U1010" pin="1"/>
+            <node ref="U1000" pin="46"/>
+        </net>
+        <net code="117" name="">
+            <node ref="U1000" pin="26"/>
+        </net>
+        <net code="118" name="">
+            <node ref="U1000" pin="25"/>
+            <node ref="D4" pin="2"/>
+        </net>
+        <net code="119" name="/IIC_SCL">
+            <node ref="U1000" pin="15"/>
+            <node ref="P1" pin="2"/>
+            <node ref="R2" pin="2"/>
+        </net>
+        <net code="120" name="/IIC_SDA">
+            <node ref="R1" pin="2"/>
+            <node ref="P1" pin="3"/>
+            <node ref="U1000" pin="16"/>
+        </net>
+    </nets>
+</export>

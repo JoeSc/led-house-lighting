@@ -1,0 +1,95 @@
+(export (version D)
+  (design
+    (source /home/jschaack/Documents/led-house-lighting/boards/relay_board/relay_board.sch)
+    (date "Tue 27 Aug 2013 08:25:30 AM CDT")
+    (tool "eeschema (2013-mar-13)-testing"))
+  (components
+    (comp (ref K1001)
+      (value RELAY_G5LE)
+      (libsource (lib Joe_Discrete) (part RELAY_G5LE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521CA673))
+    (comp (ref P1001)
+      (value CONN_JST_PH_2)
+      (fields
+        (field (name PN) 455-1749-1-ND))
+      (libsource (lib Joe_Discrete) (part CONN_JST_PH_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521CA682))
+    (comp (ref P1002)
+      (value CONN_TERM_BLOCK_2POS_3P5MM)
+      (fields
+        (field (name PN) A98036-ND)
+        (field (name Name) TRM_BLK_2))
+      (libsource (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521CA69B))
+    (comp (ref F1010)
+      (value FUSE)
+      (libsource (lib device) (part FUSE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521CA73A)))
+  (libparts
+    (libpart (lib device) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib Joe_Discrete) (part CONN_JST_PH_2)
+      (footprints
+        (fp JST_PH_2))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_JST_PH_2)
+        (field (name PN) 455-1749-1-ND))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM)
+      (footprints
+        (fp CONN_TERM_BLOCK_2POS_3P5MM))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_TERM_BLOCK_2POS_3P5MM)
+        (field (name PN) A98036-ND)
+        (field (name Name) TRM_BLK_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib Joe_Discrete) (part RELAY_G5LE)
+      (footprints
+        (fp relay_g5le))
+      (fields
+        (field (name Reference) K)
+        (field (name Value) RELAY_G5LE))
+      (pins
+        (pin (num 1) (name C1) (type passive))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name T1) (type passive))
+        (pin (num 4) (name R1) (type passive))
+        (pin (num 5) (name 5) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical Joe_Discrete)
+      (uri /home/jschaack/Documents/Kicad_Library/Joe_Discrete.lib)))
+  (nets
+    (net (code 1) (name "")
+      (node (ref F1010) (pin 2))
+      (node (ref P1002) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref F1010) (pin 1))
+      (node (ref K1001) (pin 3)))
+    (net (code 3) (name "")
+      (node (ref K1001) (pin 5))
+      (node (ref P1001) (pin 2)))
+    (net (code 4) (name "")
+      (node (ref K1001) (pin 2))
+      (node (ref P1001) (pin 1)))
+    (net (code 5) (name "")
+      (node (ref K1001) (pin 1))
+      (node (ref P1002) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref K1001) (pin 4)))))

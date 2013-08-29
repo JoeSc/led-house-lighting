@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 27 Aug 2013 08:23:54 AM CDT
+
+BeginCmp
+TimeStamp = /521CA73A;
+Reference = F1010;
+ValeurCmp = FUSE;
+IdModule  = fuse_5x20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CA673;
+Reference = K1001;
+ValeurCmp = RELAY_G5LE;
+IdModule  = relay_g5le;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CA682;
+Reference = P1001;
+ValeurCmp = CONN_JST_PH_2;
+IdModule  = JST_PH_2_TH_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CA69B;
+Reference = P1002;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
+EndCmp
+
+EndListe

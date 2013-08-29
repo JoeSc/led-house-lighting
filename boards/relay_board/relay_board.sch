@@ -1,0 +1,118 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Joe_Chips
+LIBS:Joe_Discrete
+LIBS:relay_board-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RELAY_G5LE K1001
+U 1 1 521CA673
+P 6500 3350
+F 0 "K1001" H 6450 3700 70  0000 C CNN
+F 1 "RELAY_G5LE" H 6650 3050 70  0000 C CNN
+F 2 "" H 6500 3550 60  0000 C CNN
+F 3 "" H 6500 3550 60  0000 C CNN
+	1    6500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_JST_PH_2 P1001
+U 1 1 521CA682
+P 4750 3500
+F 0 "P1001" V 4750 3500 40  0000 C CNN
+F 1 "CONN_JST_PH_2" H 4600 3300 40  0000 C CNN
+F 2 "" H 4750 3500 60  0000 C CNN
+F 3 "" H 4750 3500 60  0000 C CNN
+F 4 "455-1749-1-ND" H 4750 3200 60  0001 C CNN "PN"
+	1    4750 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_TERM_BLOCK_2POS_3P5MM P1002
+U 1 1 521CA69B
+P 8350 3200
+F 0 "P1002" V 8350 3200 40  0000 C CNN
+F 1 "CONN_TERM_BLOCK_2POS_3P5MM" H 8300 3450 40  0001 C CNN
+F 2 "" H 8350 3200 60  0000 C CNN
+F 3 "" H 8350 3200 60  0000 C CNN
+F 4 "A98036-ND" H 8350 2900 60  0001 C CNN "PN"
+F 5 "TRM_BLK_2" H 8050 3000 40  0000 L BNN "Name"
+	1    8350 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3300 7700 3300
+Wire Wire Line
+	6100 3200 5900 3200
+Wire Wire Line
+	5900 3200 5900 2900
+Wire Wire Line
+	5900 2900 7100 2900
+Wire Wire Line
+	6900 3300 7200 3300
+Wire Wire Line
+	7100 2900 7100 3100
+Wire Wire Line
+	7100 3100 8000 3100
+Wire Wire Line
+	6100 3400 5100 3400
+Wire Wire Line
+	5100 3600 5300 3600
+Wire Wire Line
+	5300 3600 5300 3500
+Wire Wire Line
+	5300 3500 6100 3500
+$Comp
+L FUSE F1010
+U 1 1 521CA73A
+P 7450 3300
+F 0 "F1010" H 7550 3350 40  0000 C CNN
+F 1 "FUSE" H 7350 3250 40  0000 C CNN
+F 2 "" H 7450 3300 60  0000 C CNN
+F 3 "" H 7450 3300 60  0000 C CNN
+	1    7450 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

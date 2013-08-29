@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Mar 2013 10:06:39 PM CDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,8 +31,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:Joe_Chips
 LIBS:Joe_Discrete
-LIBS:main_Board-cache
-EELAYER 27 0
+LIBS:main_control_board-cache
+EELAYER 24 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
@@ -1949,8 +1949,6 @@ Wire Wire Line
 	15900 14350 15900 14450
 Wire Wire Line
 	15900 14850 15900 14950
-Entry Wire Line
-	5150 10950 5250 11050
 $Comp
 L GND #PWR058
 U 1 1 50786460

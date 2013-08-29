@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/jschaack/Documents/Kitchen_LM3414/main_Board/main_Board.sch)
-    (date "Tue 26 Mar 2013 10:06:49 PM CDT")
-    (tool "eeschema (2013-03-19 BZR 4004)-stable"))
+    (source /home/jschaack/Documents/led-house-lighting/boards/main_control_board/main_control_board.sch)
+    (date "Tue 11 Jun 2013 03:54:17 PM CDT")
+    (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref Q102)
       (value MOSFET_P)
@@ -1200,7 +1200,7 @@
       (fields
         (field (name PN) ED2742-ND)
         (field (name Name) TRM_BLK_4))
-      (libsource (lib Joe_Discrete) (part CONN_TERM_BLOCK_4POS_3P5MM))
+      (libsource (lib main_control_board-cache) (part CONN_TERM_BLOCK_4POS_3P5MM))
       (sheetpath (names /) (tstamps /))
       (tstamp 5152754B)))
   (libparts
@@ -1208,9 +1208,7 @@
       (docs transistors/mos/*.*)
       (fields
         (field (name Reference) Q)
-        (field (name Value) MOS_P)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) MOS_P))
       (pins
         (pin (num D) (name D) (type passive))
         (pin (num G) (name G) (type input))
@@ -1247,6 +1245,7 @@
         (pin (num 9) (name ~) (type passive))
         (pin (num 10) (name ~) (type passive))))
     (libpart (lib Joe_Chips) (part ic_ft232rl_ssop28)
+      (description "USB to serial interface")
       (footprints
         (fp SSOP28))
       (fields
@@ -1281,6 +1280,20 @@
         (pin (num 26) (name TEST) (type power_in))
         (pin (num 27) (name OSCI) (type input))
         (pin (num 28) (name OSCO) (type output))))
+    (libpart (lib Joe_Discrete) (part cap_0p1uf_10p_50v_x7r_0805)
+      (footprints
+        (fp SM0805))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) cap_0p1uf_10p_50v_x7r_0805)
+        (field (name PN) 311-1140-1-ND)
+        (field (name Val) 0.1uF)
+        (field (name Package) 0805)
+        (field (name Tol) 10%)
+        (field (name Voltage) 50V))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib Joe_Chips) (part ic_lm3414_psop8)
       (fields
         (field (name Reference) U)
@@ -1297,6 +1310,7 @@
         (pin (num 7) (name LX) (type input))
         (pin (num 8) (name VIN) (type input))))
     (libpart (lib Joe_Chips) (part ic_lpc1343_lqfp48)
+      (description "LPC1343 ARM Cortex M3")
       (footprints
         (fp LQFP48))
       (fields
@@ -1354,6 +1368,7 @@
         (pin (num 47) (name PIO1_7-TXD-CT32B0_MAT1) (type BiDi))
         (pin (num 48) (name PIO3_3) (type BiDi))))
     (libpart (lib Joe_Chips) (part ic_mcp1700t33_sot23)
+      (description "3.3V 250mA Regulator 3.5V-6V input")
       (footprints
         (fp SOT23-3))
       (fields
@@ -1392,20 +1407,6 @@
         (pin (num 18) (name AD2/Dio2) (type passive))
         (pin (num 19) (name AD1/Dio1) (type passive))
         (pin (num 20) (name Comi/AD0/Dio0) (type passive))))
-    (libpart (lib Joe_Discrete) (part cap_0p1uf_10p_50v_x7r_0805)
-      (footprints
-        (fp SM0805))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) cap_0p1uf_10p_50v_x7r_0805)
-        (field (name PN) 311-1140-1-ND)
-        (field (name Val) 0.1uF)
-        (field (name Package) 0805)
-        (field (name Tol) 10%)
-        (field (name Voltage) 50V))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib Joe_Discrete) (part cap_1uf_10p_25v_x7r_0805)
       (footprints
         (fp SM0805))
@@ -1477,7 +1478,6 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib Joe_Discrete) (part CONN_JST_PH_2)
-      (description "JST PH 2-PIN Connector")
       (footprints
         (fp JST_PH_2))
       (fields
@@ -1511,7 +1511,6 @@
         (pin (num 3) (name ~) (type passive))
         (pin (num 4) (name ~) (type passive))))
     (libpart (lib Joe_Discrete) (part CONN_TERM_BLOCK_2POS_3P5MM)
-      (description "2 Position 3.5mm terminal block")
       (footprints
         (fp CONN_TERM_BLOCK_2POS_3P5MM))
       (fields
@@ -1523,6 +1522,7 @@
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))))
     (libpart (lib Joe_Discrete) (part conn_usb_mini_b)
+      (description "Mini USB B Connector")
       (footprints
         (fp CONN_USB_MINI_B))
       (fields
@@ -1538,6 +1538,7 @@
         (pin (num 5) (name GND) (type output))
         (pin (num 6) (name CHGND) (type BiDi))))
     (libpart (lib Joe_Discrete) (part crystal_12mhz_18pf_cs3p2x5)
+      (description "12MHz 3.2mm x 5mm Crystal")
       (footprints
         (fp CRYSTAL_3P2X5))
       (fields
@@ -1550,6 +1551,7 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
     (libpart (lib Joe_Discrete) (part diode_mbr0520_sod123)
+      (description "diode 385mV @ 500mA MAX schottky")
       (footprints
         (fp SOD123))
       (fields
@@ -1718,6 +1720,7 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib Joe_Discrete) (part sw_pb_mjtp1230)
+      (description "6mmx6mm TH push button Switch")
       (footprints
         (fp TACT_SW_TH_6x6))
       (fields
@@ -1741,8 +1744,7 @@
         (pin (num D) (name D) (type passive))
         (pin (num G) (name G) (type input))
         (pin (num S) (name S) (type passive))))
-    (libpart (lib Joe_Discrete) (part CONN_TERM_BLOCK_4POS_3P5MM)
-      (description "2 Position 3.5mm terminal block")
+    (libpart (lib main_control_board-cache) (part CONN_TERM_BLOCK_4POS_3P5MM)
       (footprints
         (fp CONN_TERM_BLOCK_2POS_3P5MM))
       (fields
@@ -1756,14 +1758,16 @@
         (pin (num 3) (name ~) (type input))
         (pin (num 4) (name ~) (type input)))))
   (libraries
-    (library (logical Joe_Discrete)
-      (uri /home/jschaack/Documents/Kicad_Library/Joe_Discrete.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical Joe_Chips)
-      (uri /home/jschaack/Documents/Kicad_Library/Joe_Chips.lib)))
+      (uri /home/jschaack/Documents/Kicad_Library/Joe_Chips.lib))
+    (library (logical Joe_Discrete)
+      (uri /home/jschaack/Documents/Kicad_Library/Joe_Discrete.lib))
+    (library (logical main_control_board-cache)
+      (uri /home/jschaack/Documents/led-house-lighting/boards/main_control_board/main_control_board-cache.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref C131) (pin 2))
